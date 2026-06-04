@@ -121,12 +121,11 @@ text = "Radio Item 4"
 [node name="TabContainer" type="TabContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2" unique_id=763380777]
 layout_mode = 2
 size_flags_horizontal = 3
-current_tab = 2
+current_tab = 0
 tabs_rearrange_group = 0
-tab_3/disabled = true
+tab_4/disabled = true
 
 [node name="Buttons" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1325179023]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -217,6 +216,18 @@ layout_mode = 2
 size_flags_horizontal = 3
 text = "Open File Dialog"
 
+[node name="ColorPickerButton" type="ColorPickerButton" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer" unique_id=123498736]
+layout_mode = 2
+text = "Pick Color"
+
+[node name="FoldableContainer" type="FoldableContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer" unique_id=1052743921]
+layout_mode = 2
+title = "Foldable Container"
+
+[node name="Button" type="Button" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/FoldableContainer" unique_id=1966665220]
+layout_mode = 2
+text = "Button inside folding container"
+
 [node name="Text Boxes" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=595279981]
 visible = false
 layout_mode = 2
@@ -253,9 +264,18 @@ Text
 Editor"
 editable = false
 
-[node name="Extra" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1765829814]
+[node name="Code" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1534629237]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 2
+
+[node name="CodeEdit" type="CodeEdit" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Code" unique_id=374798643]
+layout_mode = 2
+
+[node name="Extra" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1765829814]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Extra" unique_id=318128201]
 layout_mode = 2
@@ -312,7 +332,7 @@ page = 15.0
 [node name="Disabled Tab" type="Control" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1925996675]
 visible = false
 layout_mode = 2
-metadata/_tab_index = 3
+metadata/_tab_index = 4
 
 [node name="FileDialog" type="FileDialog" parent="." unique_id=810036661]
 oversampling_override = 1.0
