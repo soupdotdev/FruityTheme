@@ -96,6 +96,7 @@ CheckButton/styles/hover = ExtResource("20_0ncmb")
 CheckButton/styles/hover_pressed = ExtResource("20_0ncmb")
 CheckButton/styles/normal = ExtResource("20_0ncmb")
 CheckButton/styles/pressed = ExtResource("20_0ncmb")
+CodeEdit/fonts/font = ExtResource("43_crccm")
 CompactHBoxContainer/base_type = &"HBoxContainer"
 CompactHBoxContainer/constants/separation = 5
 CompactVBoxContainer/base_type = &"VBoxContainer"
