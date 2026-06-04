@@ -10,7 +10,7 @@ Uses [Inter](https://fonts.google.com/specimen/Inter) and [Cascadia Mono](https:
 ## Installation & Use
 To use Fruity, first clone this repository and copy the 'Themes' folder into your project.
 <br/>
-Then, either set the theme property in the root node of your application to `'res://Themes/Fruity/theme.tres'` or set it in `Project Settings>GUI>Theme>Custom`
+Then, either set the theme property in the root node of your application to `"res://Themes/Fruity/theme.tres"` or set it in `Project Settings>GUI>Theme>Custom`
 
 ## Supported Controls
 | Control           | Implemented |  Notes                                   |
