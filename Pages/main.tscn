@@ -123,11 +123,12 @@ text = "Radio Item 4"
 [node name="TabContainer" type="TabContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2" unique_id=763380777]
 layout_mode = 2
 size_flags_horizontal = 3
-current_tab = 0
+current_tab = 3
 tabs_rearrange_group = 0
 tab_4/disabled = true
 
 [node name="Buttons" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1325179023]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -243,7 +244,14 @@ text = "Pick Color"
 layout_mode = 2
 title = "Foldable Container"
 
-[node name="Button" type="Button" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/FoldableContainer" unique_id=1966665220]
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/FoldableContainer" unique_id=1196026979]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/FoldableContainer/VBoxContainer" unique_id=1904887550]
+layout_mode = 2
+text = "Content"
+
+[node name="Button" type="Button" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/FoldableContainer/VBoxContainer" unique_id=1966665220]
 layout_mode = 2
 text = "Button inside folding container"
 
@@ -292,7 +300,6 @@ metadata/_tab_index = 2
 layout_mode = 2
 
 [node name="Extra" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1765829814]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 3
 
@@ -343,10 +350,11 @@ item_17/text = "18"
 item_18/text = "19"
 item_19/text = "20"
 
-[node name="VScrollBar" type="VScrollBar" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Extra/VBoxContainer/HBoxContainer" unique_id=1948314924]
-custom_minimum_size = Vector2(15, 0)
+[node name="HSlider2" type="VSlider" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Extra/VBoxContainer/HBoxContainer" unique_id=1281943183]
 layout_mode = 2
-page = 15.0
+max_value = 15.0
+value = 11.0
+tick_count = 16
 
 [node name="Disabled Tab" type="Control" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1925996675]
 visible = false
