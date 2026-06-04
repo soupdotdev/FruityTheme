@@ -1,0 +1,10 @@
+[gd_resource type="FontVariation" format=3 uid="uid://b60sw7tsfpd5n"]
+
+[ext_resource type="FontFile" uid="uid://dvtehbogo4kt4" path="res://Themes/Fruity/Assets/Fonts/cascadia.ttf" id="1_45qfr"]
+
+[resource]
+base_font = ExtResource("1_45qfr")
+variation_opentype = {
+1869640570: 14,
+2003265652: 300
+}

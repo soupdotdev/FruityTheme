@@ -1,0 +1,10 @@
+[gd_resource type="FontVariation" format=3 uid="uid://dqg0pdywwi1l1"]
+
+[ext_resource type="FontFile" uid="uid://dmgktsrynjb2x" path="res://Themes/Fruity/Assets/Fonts/cascadia_italic.ttf" id="1_apo6p"]
+
+[resource]
+base_font = ExtResource("1_apo6p")
+variation_opentype = {
+1869640570: 14,
+2003265652: 300
+}
