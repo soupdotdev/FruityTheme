@@ -37,6 +37,8 @@ grow_vertical = 2
 [node name="HBoxContainer2" type="HSplitContainer" parent="MarginContainer/Panel/MarginContainer" unique_id=1257301264]
 layout_mode = 2
 size_flags_vertical = 3
+drag_area_margin_begin = 20
+drag_area_margin_end = 20
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2" unique_id=2079734013]
 custom_minimum_size = Vector2(280, 0)
@@ -158,13 +160,25 @@ layout_mode = 2
 size_flags_horizontal = 3
 
 [node name="Menu Item" type="PopupMenu" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer2/MenuBar" unique_id=1429919028]
-item_count = 3
-item_0/text = "Cut"
+item_count = 6
+item_0/text = "Button"
 item_0/id = 0
-item_1/text = "Copy"
-item_1/id = 1
-item_2/text = "Paste"
-item_2/id = 2
+item_1/id = 5
+item_1/separator = true
+item_2/text = "Checkbox"
+item_2/checkable = 1
+item_2/checked = true
+item_2/id = 1
+item_3/text = "Label"
+item_3/id = 4
+item_3/separator = true
+item_4/text = "RadioButton"
+item_4/checkable = 2
+item_4/checked = true
+item_4/id = 2
+item_5/text = "RadioButton2"
+item_5/checkable = 2
+item_5/id = 3
 
 [node name="Menu Item 2" type="PopupMenu" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer2/MenuBar" unique_id=1990708163]
 item_count = 3
