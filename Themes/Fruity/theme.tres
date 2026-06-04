@@ -42,6 +42,7 @@
 [ext_resource type="StyleBox" uid="uid://bqs7if0vl7gy8" path="res://Themes/Fruity/Assets/StyleBoxes/Bar_full.tres" id="25_k238v"]
 [ext_resource type="StyleBox" uid="uid://dfsmugt8tnncs" path="res://Themes/Fruity/Assets/StyleBoxes/MenuItem_focus.tres" id="31_htg7k"]
 [ext_resource type="StyleBox" uid="uid://che3ysf5f6bgr" path="res://Themes/Fruity/Assets/StyleBoxes/Focus.tres" id="34_fxdjw"]
+[ext_resource type="Texture2D" uid="uid://b0mghg2u020f7" path="res://Themes/Fruity/Assets/Images/vgrabber_16x.png" id="35_jkvw0"]
 [ext_resource type="StyleBox" uid="uid://cdofaqrcqkp47" path="res://Themes/Fruity/Assets/StyleBoxes/VSeparator.tres" id="36_htg7k"]
 [ext_resource type="StyleBox" uid="uid://jwa4dh6ageqs" path="res://Themes/Fruity/Assets/StyleBoxes/Panel_nospacing.tres" id="38_sohwe"]
 [ext_resource type="FontVariation" uid="uid://bcsgdw6lbvose" path="res://Themes/Fruity/Assets/Fonts/inter_b.tres" id="40_bg7g1"]
@@ -49,6 +50,7 @@
 [ext_resource type="FontVariation" uid="uid://bejbheh2i3otd" path="res://Themes/Fruity/Assets/Fonts/inter_i.tres" id="42_jkvw0"]
 [ext_resource type="FontVariation" uid="uid://b60sw7tsfpd5n" path="res://Themes/Fruity/Assets/Fonts/cascadia.tres" id="43_crccm"]
 [ext_resource type="Texture2D" uid="uid://dea2yqdgbe6gj" path="res://Themes/Fruity/Assets/Images/vtick_16x.png" id="45_fxdjw"]
+[ext_resource type="Texture2D" uid="uid://djo8pphdluidx" path="res://Themes/Fruity/Assets/Images/grabber_16x.png" id="51_crccm"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_p8bwc"]
 
@@ -122,6 +124,7 @@ HSlider/icons/tick = ExtResource("24_0k4up")
 HSlider/styles/grabber_area = ExtResource("25_k238v")
 HSlider/styles/grabber_area_highlight = ExtResource("25_k238v")
 HSlider/styles/slider = ExtResource("20_4g1ua")
+HSplitContainer/icons/grabber = ExtResource("35_jkvw0")
 ItemList/constants/h_separation = 10
 ItemList/constants/v_separation = 10
 ItemList/fonts/font = ExtResource("2_38o4u")
@@ -198,4 +201,5 @@ VSlider/icons/tick = ExtResource("45_fxdjw")
 VSlider/styles/grabber_area = ExtResource("25_k238v")
 VSlider/styles/grabber_area_highlight = ExtResource("25_k238v")
 VSlider/styles/slider = ExtResource("20_4g1ua")
+VSplitContainer/icons/grabber = ExtResource("51_crccm")
 Window/fonts/title_font = ExtResource("2_38o4u")
