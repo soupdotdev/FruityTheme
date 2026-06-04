@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://joc3g1e5q487"
-path="res://.godot/imported/checkbox_checked_32x.png-5baeca8a76dbbdf71a55aa67c98215ec.ctex"
+uid="uid://yfwgka28tqaj"
+path="res://.godot/imported/radio_checked_disabled_20x.png-90fc61b0915882caa9123dd89ddb5c14.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Themes/Fruity/Assets/Images/checkbox_checked_32x.png"
-dest_files=["res://.godot/imported/checkbox_checked_32x.png-5baeca8a76dbbdf71a55aa67c98215ec.ctex"]
+source_file="res://Themes/Fruity/Assets/Images/radio_checked_disabled_20x.png"
+dest_files=["res://.godot/imported/radio_checked_disabled_20x.png-90fc61b0915882caa9123dd89ddb5c14.ctex"]
 
 [params]
 

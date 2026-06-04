@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ckj7w6vqymvuo"
-path="res://.godot/imported/radio_32x.png-0d7002906fc0844f975a684928ad8b01.ctex"
+uid="uid://bn0u0nk7gxw2g"
+path="res://.godot/imported/radio_disabled_20x.png-a7b30e1e0b4cd9ee4b24056b0a98e49c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Themes/Fruity/Assets/Images/radio_32x.png"
-dest_files=["res://.godot/imported/radio_32x.png-0d7002906fc0844f975a684928ad8b01.ctex"]
+source_file="res://Themes/Fruity/Assets/Images/radio_disabled_20x.png"
+dest_files=["res://.godot/imported/radio_disabled_20x.png-a7b30e1e0b4cd9ee4b24056b0a98e49c.ctex"]
 
 [params]
 
