@@ -2,18 +2,18 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://cjfburkk4b1jn"
-path="res://.godot/imported/inter.ttf-0c84f6c8219e930fb1ec04b8c89b1759.fontdata"
+uid="uid://beumkbra7y4h3"
+path="res://.godot/imported/inter_italic.ttf-a442b5d679b3fde61d419dbb5839e066.fontdata"
 
 [deps]
 
-source_file="res://Themes/Fruity/Assets/Fonts/inter.ttf"
-dest_files=["res://.godot/imported/inter.ttf-0c84f6c8219e930fb1ec04b8c89b1759.fontdata"]
+source_file="res://Themes/Fruity/Assets/Fonts/inter_italic.ttf"
+dest_files=["res://.godot/imported/inter_italic.ttf-a442b5d679b3fde61d419dbb5839e066.fontdata"]
 
 [params]
 
 Rendering=null
-antialiasing=2
+antialiasing=1
 generate_mipmaps=false
 disable_embedded_bitmaps=true
 multichannel_signed_distance_field=false
@@ -30,13 +30,7 @@ Fallbacks=null
 fallbacks=[]
 Compress=null
 compress=true
-preload=[{
-"chars": [],
-"glyphs": [],
-"name": "New Configuration",
-"size": Vector2i(16, 0),
-&"variation_embolden": 0.0
-}]
+preload=[]
 language_support={}
 script_support={}
 opentype_features={}

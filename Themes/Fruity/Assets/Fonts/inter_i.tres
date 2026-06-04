@@ -1,0 +1,10 @@
+[gd_resource type="FontVariation" format=3 uid="uid://bejbheh2i3otd"]
+
+[ext_resource type="FontFile" uid="uid://beumkbra7y4h3" path="res://Themes/Fruity/Assets/Fonts/inter_italic.ttf" id="1_c4ig6"]
+
+[resource]
+base_font = ExtResource("1_c4ig6")
+variation_opentype = {
+1869640570: 14,
+2003265652: 300
+}
