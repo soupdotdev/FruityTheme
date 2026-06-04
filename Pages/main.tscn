@@ -34,7 +34,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/Panel/MarginContainer" unique_id=440920153]
+[node name="HBoxContainer2" type="HSplitContainer" parent="MarginContainer/Panel/MarginContainer" unique_id=1257301264]
 layout_mode = 2
 size_flags_vertical = 3
 
@@ -144,6 +144,11 @@ text = "Button"
 layout_mode = 2
 disabled = true
 text = "Disabled Button"
+
+[node name="LinkButton" type="LinkButton" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer" unique_id=239930891]
+layout_mode = 2
+text = "LinkButton"
+uri = "https://github.com/soupdotdev/FruityTheme"
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer" unique_id=1307501717]
 layout_mode = 2
