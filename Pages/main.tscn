@@ -1,0 +1,327 @@
+[gd_scene format=3 uid="uid://crb37owl2b0l6"]
+
+[ext_resource type="Theme" uid="uid://mdcv63tc6ssn" path="res://Themes/Fruity/theme.tres" id="1_sffqj"]
+[ext_resource type="Script" uid="uid://bvkyn278xu1t3" path="res://Pages/Main.cs" id="2_8onie"]
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_sffqj"]
+
+[node name="Control" type="Panel" unique_id=896819895]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_sffqj")
+theme_type_variation = &"BackgroundPanel"
+script = ExtResource("2_8onie")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1020655109]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="MarginContainer" unique_id=802853242]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/Panel" unique_id=2027850860]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/Panel/MarginContainer" unique_id=440920153]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2" unique_id=2079734013]
+custom_minimum_size = Vector2(280, 0)
+layout_mode = 2
+
+[node name="Panel" type="Panel" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer" unique_id=1469300825]
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"SubPanel"
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel" unique_id=442283576]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel/MarginContainer" unique_id=1256488283]
+layout_mode = 2
+theme_type_variation = &"CompactVBoxContainer"
+
+[node name="CheckBox" type="CheckBox" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=1685358762]
+layout_mode = 2
+text = "Checkbox 1"
+
+[node name="CheckBox2" type="CheckBox" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=1725007413]
+layout_mode = 2
+text = "Checkbox 2"
+
+[node name="CheckBox3" type="CheckBox" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=1571896790]
+layout_mode = 2
+disabled = true
+text = "Checkbox 3"
+
+[node name="CheckBox4" type="CheckBox" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel/MarginContainer/VBoxContainer" unique_id=1913735089]
+layout_mode = 2
+disabled = true
+button_pressed = true
+text = "Checkbox 4"
+
+[node name="Panel2" type="Panel" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer" unique_id=906798845]
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"SubPanel"
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel2" unique_id=2111446533]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel2/MarginContainer2" unique_id=573377447]
+layout_mode = 2
+theme_type_variation = &"CompactVBoxContainer"
+
+[node name="CheckBox" type="CheckBox" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel2/MarginContainer2/VBoxContainer" unique_id=1748218369]
+layout_mode = 2
+button_group = SubResource("ButtonGroup_sffqj")
+text = "Radio Item 1"
+
+[node name="CheckBox2" type="CheckBox" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel2/MarginContainer2/VBoxContainer" unique_id=572426484]
+layout_mode = 2
+button_group = SubResource("ButtonGroup_sffqj")
+text = "Radio Item 2"
+
+[node name="CheckBox3" type="CheckBox" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel2/MarginContainer2/VBoxContainer" unique_id=528550519]
+layout_mode = 2
+disabled = true
+button_group = SubResource("ButtonGroup_sffqj")
+text = "Radio Item 3"
+
+[node name="CheckBox4" type="CheckBox" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/VBoxContainer/Panel2/MarginContainer2/VBoxContainer" unique_id=1126831596]
+layout_mode = 2
+disabled = true
+button_pressed = true
+button_group = SubResource("ButtonGroup_sffqj")
+text = "Radio Item 4"
+
+[node name="TabContainer" type="TabContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2" unique_id=763380777]
+layout_mode = 2
+size_flags_horizontal = 3
+current_tab = 2
+tabs_rearrange_group = 0
+tab_3/disabled = true
+
+[node name="Buttons" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1325179023]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons" unique_id=1589524489]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer" unique_id=770677229]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer" unique_id=598912510]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Button"
+
+[node name="Button2" type="Button" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer" unique_id=1544321830]
+layout_mode = 2
+disabled = true
+text = "Disabled Button"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer" unique_id=1307501717]
+layout_mode = 2
+
+[node name="MenuBar" type="MenuBar" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer2" unique_id=2003387839]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Menu Item" type="PopupMenu" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer2/MenuBar" unique_id=1429919028]
+item_count = 3
+item_0/text = "Cut"
+item_0/id = 0
+item_1/text = "Copy"
+item_1/id = 1
+item_2/text = "Paste"
+item_2/id = 2
+
+[node name="Menu Item 2" type="PopupMenu" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer2/MenuBar" unique_id=1990708163]
+item_count = 3
+item_0/text = "Cut"
+item_0/id = 0
+item_1/text = "Copy"
+item_1/id = 1
+item_2/text = "Paste"
+item_2/id = 2
+
+[node name="MenuButton" type="MenuButton" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer2" unique_id=932055160]
+layout_mode = 2
+text = "Menu Button"
+item_count = 2
+popup/item_0/text = "Super Long Menu Item"
+popup/item_0/id = 0
+popup/item_1/text = "Item 2"
+popup/item_1/id = 1
+
+[node name="OptionButton" type="OptionButton" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer" unique_id=1459337696]
+layout_mode = 2
+selected = 0
+item_count = 5
+popup/item_0/text = "Option1"
+popup/item_0/id = 0
+popup/item_1/text = "Option2"
+popup/item_1/id = 1
+popup/item_2/text = "Option3"
+popup/item_2/id = 2
+popup/item_3/id = 3
+popup/item_3/separator = true
+popup/item_4/text = "Option4"
+popup/item_4/id = 4
+
+[node name="CheckButton" type="CheckButton" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer" unique_id=492924130]
+layout_mode = 2
+text = "Check Button"
+
+[node name="CheckButton2" type="CheckButton" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer" unique_id=2107322776]
+layout_mode = 2
+button_pressed = true
+text = "Check Button"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer" unique_id=798104230]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer3" unique_id=1475464621]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Open Confirmation Dialog"
+
+[node name="Button2" type="Button" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer3" unique_id=1214761414]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Open File Dialog"
+
+[node name="Text Boxes" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=595279981]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Text Boxes" unique_id=1320480865]
+layout_mode = 2
+
+[node name="LineEdit" type="LineEdit" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Text Boxes/VBoxContainer" unique_id=186980562]
+layout_mode = 2
+text = "Textbox"
+
+[node name="LineEdit2" type="LineEdit" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Text Boxes/VBoxContainer" unique_id=613022241]
+layout_mode = 2
+text = "Read-Only Textbox"
+editable = false
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Text Boxes/VBoxContainer" unique_id=979490147]
+layout_mode = 2
+
+[node name="TextEdit" type="TextEdit" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Text Boxes/VBoxContainer" unique_id=2051691685]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Multi-Line
+Text
+Editor"
+
+[node name="TextEdit2" type="TextEdit" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Text Boxes/VBoxContainer" unique_id=1433927419]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Read-Only
+Multi-Line
+Text
+Editor"
+editable = false
+
+[node name="Extra" type="MarginContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1765829814]
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Extra" unique_id=318128201]
+layout_mode = 2
+
+[node name="ProgressBar" type="ProgressBar" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Extra/VBoxContainer" unique_id=2002820377]
+layout_mode = 2
+value = 33.3
+
+[node name="HScrollBar" type="HScrollBar" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Extra/VBoxContainer" unique_id=922224725]
+layout_mode = 2
+page = 4.0
+
+[node name="HSlider" type="HSlider" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Extra/VBoxContainer" unique_id=1192048694]
+layout_mode = 2
+max_value = 15.0
+value = 3.0
+tick_count = 16
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Extra/VBoxContainer" unique_id=632270196]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ItemList" type="ItemList" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Extra/VBoxContainer/HBoxContainer" unique_id=1971762697]
+layout_mode = 2
+size_flags_horizontal = 3
+scroll_hint_mode = 1
+item_count = 20
+item_0/text = "Item1"
+item_1/text = "2"
+item_2/text = "3"
+item_3/text = "4"
+item_4/text = "5"
+item_5/text = "6"
+item_6/text = "7"
+item_7/text = "8"
+item_8/text = "9"
+item_9/text = "10"
+item_10/text = "11"
+item_11/text = "12"
+item_12/text = "13"
+item_13/text = "14"
+item_14/text = "15"
+item_15/text = "16"
+item_16/text = "17"
+item_17/text = "18"
+item_18/text = "19"
+item_19/text = "20"
+
+[node name="VScrollBar" type="VScrollBar" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Extra/VBoxContainer/HBoxContainer" unique_id=1948314924]
+custom_minimum_size = Vector2(15, 0)
+layout_mode = 2
+page = 15.0
+
+[node name="Disabled Tab" type="Control" parent="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer" unique_id=1925996675]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
+
+[node name="FileDialog" type="FileDialog" parent="." unique_id=810036661]
+oversampling_override = 1.0
+position = Vector2i(0, 36)
+
+[node name="ConfirmationDialog" type="ConfirmationDialog" parent="." unique_id=512832678]
+title = "Confirmation"
+ok_button_text = "OK"
+dialog_text = "Are you sure you wish to proceed?"
+
+[connection signal="pressed" from="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer3/Button" to="." method="ConfirmationDialog_click"]
+[connection signal="pressed" from="MarginContainer/Panel/MarginContainer/HBoxContainer2/TabContainer/Buttons/VBoxContainer/HBoxContainer3/Button2" to="." method="FileDialog_click"]
