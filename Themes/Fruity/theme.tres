@@ -44,6 +44,7 @@
 [ext_resource type="StyleBox" uid="uid://che3ysf5f6bgr" path="res://Themes/Fruity/Assets/StyleBoxes/ItemList_focus.tres" id="34_bs7b8"]
 [ext_resource type="StyleBox" uid="uid://cdofaqrcqkp47" path="res://Themes/Fruity/Assets/StyleBoxes/VSeparator.tres" id="36_htg7k"]
 [ext_resource type="StyleBox" uid="uid://jwa4dh6ageqs" path="res://Themes/Fruity/Assets/StyleBoxes/Panel_nospacing.tres" id="38_sohwe"]
+[ext_resource type="Texture2D" uid="uid://dea2yqdgbe6gj" path="res://Themes/Fruity/Assets/Images/vtick_16x.png" id="45_fxdjw"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_p8bwc"]
 
@@ -177,4 +178,11 @@ VScrollBar/styles/grabber_pressed = ExtResource("18_58y8c")
 VScrollBar/styles/scroll = ExtResource("20_4g1ua")
 VScrollBar/styles/scroll_focus = ExtResource("18_3w3xj")
 VSeparator/styles/separator = ExtResource("36_htg7k")
+VSlider/icons/grabber = ExtResource("21_sa4xj")
+VSlider/icons/grabber_disabled = ExtResource("22_k238v")
+VSlider/icons/grabber_highlight = ExtResource("23_x04hg")
+VSlider/icons/tick = ExtResource("45_fxdjw")
+VSlider/styles/grabber_area = ExtResource("25_k238v")
+VSlider/styles/grabber_area_highlight = ExtResource("25_k238v")
+VSlider/styles/slider = ExtResource("20_4g1ua")
 Window/fonts/title_font = ExtResource("2_38o4u")
