@@ -4,7 +4,7 @@ Inspired by GTK and KDE's 'Fusion'.
 <br/>
 Uses [Inter](https://fonts.google.com/specimen/Inter) and [Cascadia Mono](https://fonts.google.com/specimen/Cascadia+Mono) for the UI's fonts. 
 <p align="center">
-    <img src="https://imgur.com/a/h1bKXF4" width="400">
+    <img src="https://github.com/soupdotdev/FruityTheme/blob/main/Fruity_thumbnail.png?raw=true" width="1100">
 </p>
 
 ## Supported Controls
