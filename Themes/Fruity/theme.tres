@@ -44,9 +44,12 @@
 [ext_resource type="Texture2D" uid="uid://b0mghg2u020f7" path="res://Themes/Fruity/Assets/Images/vgrabber_16x.png" id="35_jkvw0"]
 [ext_resource type="StyleBox" uid="uid://cdofaqrcqkp47" path="res://Themes/Fruity/Assets/StyleBoxes/VSeparator.tres" id="36_htg7k"]
 [ext_resource type="StyleBox" uid="uid://jwa4dh6ageqs" path="res://Themes/Fruity/Assets/StyleBoxes/Panel_nospacing.tres" id="38_sohwe"]
+[ext_resource type="StyleBox" uid="uid://kij2hxkdk25x" path="res://Themes/Fruity/Assets/StyleBoxes/PanelLeftOnly.tres" id="40_0kb6a"]
 [ext_resource type="FontVariation" uid="uid://bcsgdw6lbvose" path="res://Themes/Fruity/Assets/Fonts/inter_b.tres" id="40_bg7g1"]
+[ext_resource type="StyleBox" uid="uid://15dag3guhfqa" path="res://Themes/Fruity/Assets/StyleBoxes/PanelTopOnly.tres" id="40_gvtxw"]
 [ext_resource type="StyleBox" uid="uid://ce2xdw53otwnf" path="res://Themes/Fruity/Assets/StyleBoxes/Hover.tres" id="41_f4c4x"]
 [ext_resource type="FontVariation" uid="uid://doy7gr84cl8si" path="res://Themes/Fruity/Assets/Fonts/inter_bi.tres" id="41_hyp1j"]
+[ext_resource type="StyleBox" uid="uid://bnftv5xph7gqp" path="res://Themes/Fruity/Assets/StyleBoxes/PanelRightOnly.tres" id="41_jgykf"]
 [ext_resource type="FontVariation" uid="uid://bejbheh2i3otd" path="res://Themes/Fruity/Assets/Fonts/inter_i.tres" id="42_jkvw0"]
 [ext_resource type="FontVariation" uid="uid://b60sw7tsfpd5n" path="res://Themes/Fruity/Assets/Fonts/cascadia.tres" id="43_crccm"]
 [ext_resource type="Texture2D" uid="uid://dea2yqdgbe6gj" path="res://Themes/Fruity/Assets/Images/vtick_16x.png" id="45_fxdjw"]
@@ -63,6 +66,14 @@
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rg2rl"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_38o4u"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_emgrv"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gvtxw"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7gxko"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0kb6a"]
 
 [resource]
 AcceptDialog/fonts/title_font = ExtResource("2_38o4u")
@@ -102,9 +113,9 @@ CheckButton/styles/normal = ExtResource("20_0ncmb")
 CheckButton/styles/pressed = ExtResource("20_0ncmb")
 CodeEdit/fonts/font = ExtResource("43_crccm")
 CompactHBoxContainer/base_type = &"HBoxContainer"
-CompactHBoxContainer/constants/separation = 5
+CompactHBoxContainer/constants/separation = 0
 CompactVBoxContainer/base_type = &"VBoxContainer"
-CompactVBoxContainer/constants/separation = 5
+CompactVBoxContainer/constants/separation = 0
 FileDialog/styles/panel = ExtResource("2_oirrr")
 FoldableContainer/fonts/font = ExtResource("2_38o4u")
 FoldableContainer/styles/focus = ExtResource("4_bdqnr")
@@ -148,13 +159,19 @@ MarginContainer/constants/margin_bottom = 10
 MarginContainer/constants/margin_left = 10
 MarginContainer/constants/margin_right = 10
 MarginContainer/constants/margin_top = 10
-MenuBar/constants/h_separation = 0
+MenuBar/constants/h_separation = 10
 MenuBar/fonts/font = ExtResource("2_38o4u")
-MenuBar/styles/disabled = ExtResource("2_6kpsn")
-MenuBar/styles/hover = ExtResource("2_xex41")
-MenuBar/styles/normal = ExtResource("2_u023k")
-MenuBar/styles/pressed = ExtResource("4_xex41")
+MenuBar/styles/disabled = SubResource("StyleBoxEmpty_emgrv")
+MenuBar/styles/hover = SubResource("StyleBoxEmpty_gvtxw")
+MenuBar/styles/normal = SubResource("StyleBoxEmpty_7gxko")
+MenuBar/styles/pressed = SubResource("StyleBoxEmpty_0kb6a")
 Panel/styles/panel = ExtResource("2_oirrr")
+PanelLeftOnly/base_type = &"Panel"
+PanelLeftOnly/styles/panel = ExtResource("40_0kb6a")
+PanelRightOnly/base_type = &"Panel"
+PanelRightOnly/styles/panel = ExtResource("41_jgykf")
+PanelTopOnly/base_type = &"Panel"
+PanelTopOnly/styles/panel = ExtResource("40_gvtxw")
 PopupMenu/fonts/font = ExtResource("2_38o4u")
 PopupMenu/fonts/font_separator = ExtResource("2_38o4u")
 PopupMenu/icons/checked = ExtResource("9_crccm")
