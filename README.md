@@ -16,7 +16,7 @@ Uses [Inter](https://fonts.google.com/specimen/Inter) and [Cascadia Mono](https:
 | CheckBox          | Yes         | Mirrored icons are not supplied          |
 | CheckButton       | Yes         | Mirrored icons are not supplied          |
 | CodeEdit          | Mostly      | Inherits all styling from TextEdit       |
-| ColorPicker       | Yes         |                                          |
+| ColorPicker       | No          | Planned                                  |
 | FileDialog        | Mostly      | Embedded Border not implemented          |
 | FlatButton        | Yes         |                                          |
 | FlatMenuButton    | Yes         |                                          |
