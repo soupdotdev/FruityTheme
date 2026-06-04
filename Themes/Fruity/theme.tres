@@ -41,7 +41,7 @@
 [ext_resource type="Texture2D" uid="uid://dimnvweo2dxob" path="res://Themes/Fruity/Assets/Images/tick_16x.png" id="24_0k4up"]
 [ext_resource type="StyleBox" uid="uid://bqs7if0vl7gy8" path="res://Themes/Fruity/Assets/StyleBoxes/Bar_full.tres" id="25_k238v"]
 [ext_resource type="StyleBox" uid="uid://dfsmugt8tnncs" path="res://Themes/Fruity/Assets/StyleBoxes/MenuItem_focus.tres" id="31_htg7k"]
-[ext_resource type="StyleBox" uid="uid://che3ysf5f6bgr" path="res://Themes/Fruity/Assets/StyleBoxes/ItemList_focus.tres" id="34_bs7b8"]
+[ext_resource type="StyleBox" uid="uid://che3ysf5f6bgr" path="res://Themes/Fruity/Assets/StyleBoxes/Focus.tres" id="34_fxdjw"]
 [ext_resource type="StyleBox" uid="uid://cdofaqrcqkp47" path="res://Themes/Fruity/Assets/StyleBoxes/VSeparator.tres" id="36_htg7k"]
 [ext_resource type="StyleBox" uid="uid://jwa4dh6ageqs" path="res://Themes/Fruity/Assets/StyleBoxes/Panel_nospacing.tres" id="38_sohwe"]
 [ext_resource type="Texture2D" uid="uid://dea2yqdgbe6gj" path="res://Themes/Fruity/Assets/Images/vtick_16x.png" id="45_fxdjw"]
@@ -119,7 +119,7 @@ HSlider/styles/slider = ExtResource("20_4g1ua")
 ItemList/constants/h_separation = 10
 ItemList/constants/v_separation = 10
 ItemList/fonts/font = ExtResource("2_38o4u")
-ItemList/styles/focus = ExtResource("34_bs7b8")
+ItemList/styles/focus = ExtResource("34_fxdjw")
 ItemList/styles/hovered = ExtResource("2_xex41")
 ItemList/styles/hovered_selected = ExtResource("2_xex41")
 ItemList/styles/hovered_selected_focus = ExtResource("31_htg7k")
@@ -131,6 +131,8 @@ LineEdit/fonts/font = ExtResource("2_38o4u")
 LineEdit/styles/focus = ExtResource("16_qgelb")
 LineEdit/styles/normal = ExtResource("16_75ueb")
 LineEdit/styles/read_only = ExtResource("18_hbuon")
+LinkButton/fonts/font = ExtResource("2_38o4u")
+LinkButton/styles/focus = ExtResource("34_fxdjw")
 MarginContainer/constants/margin_bottom = 10
 MarginContainer/constants/margin_left = 10
 MarginContainer/constants/margin_right = 10
