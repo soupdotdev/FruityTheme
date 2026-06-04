@@ -44,6 +44,10 @@
 [ext_resource type="StyleBox" uid="uid://che3ysf5f6bgr" path="res://Themes/Fruity/Assets/StyleBoxes/Focus.tres" id="34_fxdjw"]
 [ext_resource type="StyleBox" uid="uid://cdofaqrcqkp47" path="res://Themes/Fruity/Assets/StyleBoxes/VSeparator.tres" id="36_htg7k"]
 [ext_resource type="StyleBox" uid="uid://jwa4dh6ageqs" path="res://Themes/Fruity/Assets/StyleBoxes/Panel_nospacing.tres" id="38_sohwe"]
+[ext_resource type="FontVariation" uid="uid://bcsgdw6lbvose" path="res://Themes/Fruity/Assets/Fonts/inter_b.tres" id="40_bg7g1"]
+[ext_resource type="FontVariation" uid="uid://doy7gr84cl8si" path="res://Themes/Fruity/Assets/Fonts/inter_bi.tres" id="41_hyp1j"]
+[ext_resource type="FontVariation" uid="uid://bejbheh2i3otd" path="res://Themes/Fruity/Assets/Fonts/inter_i.tres" id="42_jkvw0"]
+[ext_resource type="FontVariation" uid="uid://b60sw7tsfpd5n" path="res://Themes/Fruity/Assets/Fonts/cascadia.tres" id="43_crccm"]
 [ext_resource type="Texture2D" uid="uid://dea2yqdgbe6gj" path="res://Themes/Fruity/Assets/Images/vtick_16x.png" id="45_fxdjw"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_p8bwc"]
@@ -97,6 +101,7 @@ CompactHBoxContainer/constants/separation = 5
 CompactVBoxContainer/base_type = &"VBoxContainer"
 CompactVBoxContainer/constants/separation = 5
 FileDialog/styles/panel = ExtResource("2_oirrr")
+FoldableContainer/fonts/font = ExtResource("2_38o4u")
 FoldableContainer/styles/focus = ExtResource("4_bdqnr")
 FoldableContainer/styles/panel = ExtResource("9_ds6c8")
 FoldableContainer/styles/title_collapsed_hover_panel = ExtResource("2_xex41")
@@ -158,6 +163,11 @@ PopupMenu/styles/separator = ExtResource("21_0k4up")
 ProgressBar/fonts/font = ExtResource("2_38o4u")
 ProgressBar/styles/background = ExtResource("20_4g1ua")
 ProgressBar/styles/fill = ExtResource("21_3w3xj")
+RichTextLabel/fonts/bold_font = ExtResource("40_bg7g1")
+RichTextLabel/fonts/bold_italics_font = ExtResource("41_hyp1j")
+RichTextLabel/fonts/italics_font = ExtResource("42_jkvw0")
+RichTextLabel/fonts/mono_font = ExtResource("43_crccm")
+RichTextLabel/fonts/normal_font = ExtResource("2_38o4u")
 SubPanel/base_type = &"Panel"
 SubPanel/styles/panel = ExtResource("9_ds6c8")
 TabBar/fonts/font = ExtResource("2_38o4u")
