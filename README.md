@@ -1,4 +1,4 @@
-# Fruity (theme)
+# Fruity Theme
 **Fruity** is a theme for applications built using [Godot Engine](https://godotengine.org) 4.6+.
 Inspired by GTK and KDE's 'Fusion'.
 <br/>
