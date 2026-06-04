@@ -148,6 +148,7 @@ MarginContainer/constants/margin_bottom = 10
 MarginContainer/constants/margin_left = 10
 MarginContainer/constants/margin_right = 10
 MarginContainer/constants/margin_top = 10
+MenuBar/constants/h_separation = 0
 MenuBar/fonts/font = ExtResource("2_38o4u")
 MenuBar/styles/disabled = ExtResource("2_6kpsn")
 MenuBar/styles/hover = ExtResource("2_xex41")
