@@ -55,7 +55,12 @@
 [ext_resource type="StyleBox" uid="uid://cyrmm43lnbcik" path="res://Themes/Fruity/Assets/StyleBoxes/MenuButton_pressed.tres" id="42_f4c4x"]
 [ext_resource type="FontVariation" uid="uid://bejbheh2i3otd" path="res://Themes/Fruity/Assets/Fonts/inter_i.tres" id="42_jkvw0"]
 [ext_resource type="FontVariation" uid="uid://b60sw7tsfpd5n" path="res://Themes/Fruity/Assets/Fonts/cascadia.tres" id="43_crccm"]
+[ext_resource type="StyleBox" uid="uid://bh600bt65umm0" path="res://Themes/Fruity/Assets/StyleBoxes/PanelBottom.tres" id="43_mxfnj"]
+[ext_resource type="StyleBox" uid="uid://dnnvlp8kkqdni" path="res://Themes/Fruity/Assets/StyleBoxes/PanelBottomOnly.tres" id="44_bn1ox"]
+[ext_resource type="StyleBox" uid="uid://e37cwvu0hprs" path="res://Themes/Fruity/Assets/StyleBoxes/PanelLeft.tres" id="45_87u18"]
 [ext_resource type="Texture2D" uid="uid://dea2yqdgbe6gj" path="res://Themes/Fruity/Assets/Images/vtick_16x.png" id="45_fxdjw"]
+[ext_resource type="StyleBox" uid="uid://bh022o1ynlou6" path="res://Themes/Fruity/Assets/StyleBoxes/PanelRight.tres" id="47_y8ikb"]
+[ext_resource type="StyleBox" uid="uid://c4oxfmw8dteta" path="res://Themes/Fruity/Assets/StyleBoxes/PanelTop.tres" id="49_fnefi"]
 [ext_resource type="StyleBox" uid="uid://n2qfh0xyb5je" path="res://Themes/Fruity/Assets/StyleBoxes/Bar_vbackground.tres" id="49_gvtxw"]
 [ext_resource type="StyleBox" uid="uid://db1eukkd6ab7y" path="res://Themes/Fruity/Assets/StyleBoxes/Bar_vfocus.tres" id="50_7gxko"]
 [ext_resource type="Texture2D" uid="uid://djo8pphdluidx" path="res://Themes/Fruity/Assets/Images/grabber_16x.png" id="51_crccm"]
@@ -132,6 +137,7 @@ HSlider/icons/tick = ExtResource("24_0k4up")
 HSlider/styles/grabber_area = ExtResource("21_3w3xj")
 HSlider/styles/grabber_area_highlight = ExtResource("17_40457")
 HSlider/styles/slider = ExtResource("20_4g1ua")
+HSplitContainer/constants/autohide = 0
 HSplitContainer/icons/grabber = ExtResource("35_jkvw0")
 ItemList/constants/h_separation = 10
 ItemList/constants/v_separation = 10
@@ -161,10 +167,20 @@ MenuBar/styles/hover = ExtResource("41_054sw")
 MenuBar/styles/normal = ExtResource("40_jgykf")
 MenuBar/styles/pressed = ExtResource("42_f4c4x")
 Panel/styles/panel = ExtResource("2_oirrr")
+PanelBottom/base_type = &"Panel"
+PanelBottom/styles/panel = ExtResource("43_mxfnj")
+PanelBottomOnly/base_type = &"Panel"
+PanelBottomOnly/styles/panel = ExtResource("44_bn1ox")
+PanelLeft/base_type = &"Panel"
+PanelLeft/styles/panel = ExtResource("45_87u18")
 PanelLeftOnly/base_type = &"Panel"
 PanelLeftOnly/styles/panel = ExtResource("40_0kb6a")
+PanelRight/base_type = &"Panel"
+PanelRight/styles/panel = ExtResource("47_y8ikb")
 PanelRightOnly/base_type = &"Panel"
 PanelRightOnly/styles/panel = ExtResource("41_jgykf")
+PanelTop/base_type = &"Panel"
+PanelTop/styles/panel = ExtResource("49_fnefi")
 PanelTopOnly/base_type = &"Panel"
 PanelTopOnly/styles/panel = ExtResource("40_gvtxw")
 PopupMenu/fonts/font = ExtResource("2_38o4u")
@@ -219,5 +235,6 @@ VSlider/icons/tick = ExtResource("45_fxdjw")
 VSlider/styles/grabber_area = ExtResource("21_3w3xj")
 VSlider/styles/grabber_area_highlight = ExtResource("17_40457")
 VSlider/styles/slider = ExtResource("49_gvtxw")
+VSplitContainer/constants/autohide = 0
 VSplitContainer/icons/grabber = ExtResource("51_crccm")
 Window/fonts/title_font = ExtResource("2_38o4u")
