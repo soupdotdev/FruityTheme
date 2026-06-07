@@ -20,7 +20,7 @@ Then, either set the theme property in the root node of your application to `"re
 | Button            | Yes         | Button and most derivatives are supported|
 | CheckBox          | Yes         | Mirrored icons are not supplied          |
 | CheckButton       | Yes         | Mirrored icons are not supplied          |
-| CodeEdit          | Mostly      | Inherits all styling from TextEdit       |
+| CodeEdit          | Yes         | Inherits all styling from TextEdit       |
 | ColorPicker       | No          | Planned                                  |
 | FileDialog        | Mostly      | Embedded Border not implemented          |
 | FlatButton        | Yes         |                                          |
