@@ -43,7 +43,9 @@
 [ext_resource type="StyleBox" uid="uid://che3ysf5f6bgr" path="res://Themes/Fruity/Assets/StyleBoxes/Focus.tres" id="34_fxdjw"]
 [ext_resource type="Texture2D" uid="uid://b0mghg2u020f7" path="res://Themes/Fruity/Assets/Images/vgrabber_16x.png" id="35_jkvw0"]
 [ext_resource type="StyleBox" uid="uid://cdofaqrcqkp47" path="res://Themes/Fruity/Assets/StyleBoxes/VSeparator.tres" id="36_htg7k"]
+[ext_resource type="StyleBox" uid="uid://dijyw8jmlmiv6" path="res://Themes/Fruity/Assets/StyleBoxes/ItemPanel.tres" id="37_87u18"]
 [ext_resource type="StyleBox" uid="uid://jwa4dh6ageqs" path="res://Themes/Fruity/Assets/StyleBoxes/Panel_nospacing.tres" id="38_sohwe"]
+[ext_resource type="StyleBox" uid="uid://cgmko67bbd4o7" path="res://Themes/Fruity/Assets/StyleBoxes/ItemPanelSelected.tres" id="38_y8ikb"]
 [ext_resource type="StyleBox" uid="uid://kij2hxkdk25x" path="res://Themes/Fruity/Assets/StyleBoxes/PanelLeftOnly.tres" id="40_0kb6a"]
 [ext_resource type="FontVariation" uid="uid://bcsgdw6lbvose" path="res://Themes/Fruity/Assets/Fonts/inter_b.tres" id="40_bg7g1"]
 [ext_resource type="StyleBox" uid="uid://15dag3guhfqa" path="res://Themes/Fruity/Assets/StyleBoxes/PanelTopOnly.tres" id="40_gvtxw"]
@@ -64,6 +66,8 @@
 [ext_resource type="StyleBox" uid="uid://n2qfh0xyb5je" path="res://Themes/Fruity/Assets/StyleBoxes/Bar_vbackground.tres" id="49_gvtxw"]
 [ext_resource type="StyleBox" uid="uid://db1eukkd6ab7y" path="res://Themes/Fruity/Assets/StyleBoxes/Bar_vfocus.tres" id="50_7gxko"]
 [ext_resource type="Texture2D" uid="uid://djo8pphdluidx" path="res://Themes/Fruity/Assets/Images/grabber_16x.png" id="51_crccm"]
+[ext_resource type="StyleBox" uid="uid://c2l5c0awm4iah" path="res://Themes/Fruity/Assets/StyleBoxes/PanelSquare.tres" id="51_y8ikb"]
+[ext_resource type="FontFile" uid="uid://cjfburkk4b1jn" path="res://Themes/Fruity/Assets/Fonts/inter.ttf" id="63_fnefi"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_p8bwc"]
 
@@ -82,6 +86,7 @@ BackgroundPanel/base_type = &"Panel"
 BackgroundPanel/styles/panel = ExtResource("1_rtlr7")
 BoxContainer/constants/separation = 10
 Button/colors/font_disabled_color = Color(0.8745098, 0.8745098, 0.8745098, 0.2509804)
+Button/colors/icon_normal_color = Color(1, 1, 1, 0.7058824)
 Button/fonts/font = ExtResource("2_38o4u")
 Button/styles/disabled = ExtResource("2_6kpsn")
 Button/styles/focus = ExtResource("4_bdqnr")
@@ -149,6 +154,10 @@ ItemList/styles/hovered_selected_focus = ExtResource("31_htg7k")
 ItemList/styles/panel = ExtResource("9_ds6c8")
 ItemList/styles/selected = ExtResource("2_u023k")
 ItemList/styles/selected_focus = ExtResource("31_htg7k")
+ItemPanel/base_type = &"Panel"
+ItemPanel/styles/panel = ExtResource("37_87u18")
+ItemPanelSelected/base_type = &"Panel"
+ItemPanelSelected/styles/panel = ExtResource("38_y8ikb")
 Label/fonts/font = ExtResource("2_38o4u")
 LineEdit/fonts/font = ExtResource("2_38o4u")
 LineEdit/styles/focus = ExtResource("16_qgelb")
@@ -179,6 +188,8 @@ PanelRight/base_type = &"Panel"
 PanelRight/styles/panel = ExtResource("47_y8ikb")
 PanelRightOnly/base_type = &"Panel"
 PanelRightOnly/styles/panel = ExtResource("41_jgykf")
+PanelSquare/base_type = &"Panel"
+PanelSquare/styles/panel = ExtResource("51_y8ikb")
 PanelTop/base_type = &"Panel"
 PanelTop/styles/panel = ExtResource("49_fnefi")
 PanelTopOnly/base_type = &"Panel"
@@ -198,6 +209,7 @@ PopupMenu/styles/labeled_separator_left = ExtResource("21_0k4up")
 PopupMenu/styles/labeled_separator_right = ExtResource("21_0k4up")
 PopupMenu/styles/panel = ExtResource("38_sohwe")
 PopupMenu/styles/separator = ExtResource("21_0k4up")
+PopupPanel/styles/panel = ExtResource("9_ds6c8")
 ProgressBar/fonts/font = ExtResource("2_38o4u")
 ProgressBar/styles/background = ExtResource("20_4g1ua")
 ProgressBar/styles/fill = ExtResource("21_3w3xj")
@@ -222,6 +234,10 @@ TextEdit/fonts/font = ExtResource("2_38o4u")
 TextEdit/styles/focus = ExtResource("16_qgelb")
 TextEdit/styles/normal = ExtResource("16_75ueb")
 TextEdit/styles/read_only = ExtResource("18_hbuon")
+TooltipLabel/fonts/font = ExtResource("63_fnefi")
+TooltipLabel/styles/normal = ExtResource("9_ds6c8")
+TooltipPanel/fonts/title_font = ExtResource("63_fnefi")
+TooltipPanel/styles/panel = ExtResource("9_ds6c8")
 VScrollBar/styles/grabber = ExtResource("21_3w3xj")
 VScrollBar/styles/grabber_highlight = ExtResource("17_40457")
 VScrollBar/styles/grabber_pressed = ExtResource("18_58y8c")
